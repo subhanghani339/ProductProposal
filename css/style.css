@@ -1,0 +1,74 @@
+::-webkit-input-placeholder {
+    color: rgb(21, 255, 0);
+}
+
+.MZI-div {
+    background-color: #484A5F;
+}
+
+.MZI-Para {
+    padding-top: 15px; 
+    font-size: 20px;
+    color: white; 
+    padding-left: 25px; 
+    padding-bottom: 10px; 
+    font-weight: lighter;
+}
+
+.Login-Div {
+    border: 2px solid rgb(202,202,202);
+    margin: auto;
+    max-width: 450px;
+    margin-top: 150px;
+}
+
+.Signin-Para {
+    text-align: center; 
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.First-input {
+    width: 85%;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.Second-input {
+    width: 85%;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.Continue-button {
+    margin-left: 32px; 
+    border-radius: 7px;
+    height: 32px;
+    font-size: 12px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Forget-button {
+    margin-left: 155px; 
+    margin-bottom: 30px;
+    color: rgb(190,187,190);
+}
+
+.Forget-button:hover {
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+}
+
+.Inputs {
+    height: 45px;
+    border: 2px solid rgb(202,202,202);
+}
+
+.iuser {
+    font-size: 30px; 
+    margin-right: 10px;
+    color: blue;
+}
