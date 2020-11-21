@@ -1,0 +1,115 @@
+.siden {
+  height: 100%;
+  width: 17%;
+  position: fixed;
+  background-color: royalblue;
+  overflow-x: hidden;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.MZI-div {
+    background-color: #484A5F;
+}
+
+.MZI-Para {
+    padding-top: 15px; 
+    font-size: 20px;
+    color: white; 
+    padding-left: 25px; 
+    padding-bottom: 10px; 
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+
+.main {
+    background-color: rgb(44, 46, 56);
+    width: 260px;
+    height: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    left: 0;
+    z-index: 1;
+}
+
+ul li a {
+    list-style: none;
+    color: white;
+}
+
+ul li a:hover {
+    text-decoration: none;
+}
+
+.list {
+    padding: 10px 0px;
+    font-weight: 600;
+    font-size: 19px;
+    list-style: none;
+    margin-left: 30px;
+}
+
+ul li ul li {
+    color:rgb(253red, 252, 251);
+    list-style: none;
+    font-weight: lighter;
+    font-size: 13px;
+    padding: 10px 33px 0px;
+}
+
+ul li ul li a:hover{
+    color: red;
+    text-decoration: none;
+}
+/* form */
+
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    border: 1px solid white;
+    border-right: none;
+    float: left;
+    background: #444a5f;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    padding: 1%;
+    width: 80%;
+  }
+  
+  form.example button {
+    float: left; 
+    padding: 10px;
+    background: #444a5f;
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    padding: 1%;
+    width: 20%;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  tr:nth-child(odd) {background: rgb(229, 229, 229)}
+  tr:nth-child(even) {background: #FFF}
+
+  
+  
